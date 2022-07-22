@@ -1,0 +1,66 @@
+{
+  // ===
+  // Spacing
+  // ===
+
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "editor.codeActionsOnSave": ["source.fixAll"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ===
+  // CSS
+  // ===
+
+  "stylelint.enable": true,
+  "stylelint.validate": ["less", "scss", "vue", "styl"],
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.validation.style": false,
+
+  // "editor.quickSuggestions": {
+  //   "strings": true
+  // },
+  "tailwindCSS.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html",
+    "markdown": "html",
+    "markdown-html": "html"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": "on",
+  "tailwindCSS.showPixelEquivalents": true,
+
+  // ===
+  // MARKDOWN
+  // ===
+
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ===
+  // SEARCH
+  // ===
+
+  "search.exclude": {
+    "**/.eslintcache": true,
+    "**/.stylelintcache": true,
+    "**/pnpm-lock.yaml": true,
+    "**/node_modules": true,
+    "**/dist": true
+  }
+}
